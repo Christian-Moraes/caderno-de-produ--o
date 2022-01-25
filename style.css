@@ -1,0 +1,78 @@
+/*===========header============*/
+img {
+  height: 9rem;
+  padding: 1%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+
+.caderno {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.area {
+  height: 100%;
+  padding: 2rem;
+  text-align: left;
+  position: relative;
+  top: 0;
+}
+
+/*===========main============*/
+
+.checkna {
+  height: 26rem;
+  width: 1rem;
+  right: 112.5rem;
+  position: absolute;
+  top: 22.4rem;
+}
+
+.itens {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-column-gap: 10px;
+  gap: 0.3rem;
+}
+
+.itens input {
+  height: 20px;
+}
+
+.item-jumbo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  gap: 0.3rem;
+}
+
+.item-jumbo input {
+  height: 20px;
+}
+
+.jumbo {
+  height: 2rem;
+  background: gray;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.section-jumbo {
+  height: 2rem;
+  background: gray;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.lote-jumbo {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 10px;
+  gap: 0.3rem;
+}
+
+.lote-jumbo input {
+  height: 20px;
+}
